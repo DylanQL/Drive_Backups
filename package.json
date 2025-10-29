@@ -1,0 +1,30 @@
+{
+  "name": "drive_backups",
+  "version": "1.0.0",
+  "description": "Automated MySQL backup system with Google Drive integration",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backup",
+    "mysql",
+    "google-drive",
+    "automation",
+    "cron"
+  ],
+  "author": "Angelo Dylan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "googleapis": "^128.0.0",
+    "node-cron": "^3.0.3",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
